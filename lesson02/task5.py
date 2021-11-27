@@ -17,5 +17,3 @@ format_output(price_list)
 price_list_reverse.reverse()
 print(price_list_reverse)
 format_output(price_list_reverse)
-
-
