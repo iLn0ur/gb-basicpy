@@ -18,8 +18,9 @@ for el in list_of_words:
         continue
     correct_list.append(el)
 
-result = ''
 sign_control = 0
+
+result = ''
 for i in range(len(correct_list)):
     if sign_control:
         sign_control -= 1
