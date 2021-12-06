@@ -1,7 +1,7 @@
 import os
 
 dir_name = 'my_project'
-subfolders_name =['settings', 'mainapp', 'adminapp', 'authapp']
+subfolders_name = ['settings', 'mainapp', 'adminapp', 'authapp']
 if not os.path.exists(dir_name):
     os.mkdir(dir_name)
     os.chdir(dir_name)

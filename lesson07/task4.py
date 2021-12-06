@@ -1,5 +1,6 @@
 import os
 
+
 root_dir = './some_data'
 file_size_dict = {10: 0}
 file_size = 0
